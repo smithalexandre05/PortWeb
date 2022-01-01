@@ -1,0 +1,86 @@
+/* Name: Alex Smith 
+Date: Dec 26th, 2021
+Description: CSS file for PortWeb (new portfolio website built from scratch...) */
+
+body { /* Fixed padding around all sections. */
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section { /* Anything in here will be inherited in all section classes e.i. 'header' */
+  height: 500px;
+  background-color: #fff;
+  border: solid black 1px;
+}
+
+.header {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: #fff;
+  font-size: 30px;
+}
+
+.header-text {
+	margin-left: 80px;
+	margin-bottom: 100px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	display: flex;
+	list-style-type: none; /* Removes point form*/
+	width: 600px;
+	justify-content: space-around;
+	font-size: 25px;
+}
+
+li {
+	text-decoration: none; /* Removed underline from links*/
+}
+
+.button {
+	width: 175px;
+	height: 45px;
+	border-radius: 25px;
+	background-color: #FF6F6F;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 60px;
+}
+
+p {
+	margin: 0;
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.header-area {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
